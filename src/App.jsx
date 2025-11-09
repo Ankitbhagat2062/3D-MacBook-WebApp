@@ -4,6 +4,7 @@ import Hero from './Components/Hero'
 import ProductViewer from './Components/ProductViewer'
 import { gsap } from 'gsap'
 import { ScrollTrigger , SplitText } from 'gsap/all'
+import Showcase from './Components/Showcase'
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <ProductViewer />
+      <Showcase />
     </main>
   )
 }
